@@ -7,7 +7,7 @@ const Parceiros = () => {
       <img
         src={imagemParceiros}
         alt="Parceiros"
-        style={{ width: "100%", height: "620px" }}
+        style={{ width: "100%", height: "564px" }}
       />
     </>
   );
