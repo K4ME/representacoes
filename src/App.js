@@ -1,4 +1,5 @@
 import React from "react";
+import { Switch, Route, Link } from "react-router-dom";
 
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
@@ -13,14 +14,12 @@ function App() {
   return (
     <>
       <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
-        <Navbar.Brand href="#home">
-          <a href="/">
-            <img
-              src={logoImage}
-              alt="Flávio Costa Representações"
-              style={{ width: 300, height: 40, marginTop: -7 }}
-            />
-          </a>
+        <Navbar.Brand as={Link} to="/">
+          <img
+            src={logoImage}
+            alt="Flávio Costa Representações"
+            style={{ width: 300, height: 40, marginTop: -7 }}
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -30,42 +29,47 @@ function App() {
               title={<strong>Produtos</strong>}
               id="collasible-nav-dropdown"
             >
-              <NavDropdown.Item href="/importados">
+              <NavDropdown.Item as={Link} to="/importados">
                 Importações
               </NavDropdown.Item>
               <NavDropdown.Divider />
 
-              <NavDropdown.Item href="/naturais">
+              <NavDropdown.Item as={Link} to="/naturais">
                 Naturais e Orgânicos
               </NavDropdown.Item>
               <NavDropdown.Divider />
 
-              <NavDropdown.Item href="/sucos">Sucos Integrais</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/sucos">
+                Sucos Integrais
+              </NavDropdown.Item>
               <NavDropdown.Divider />
 
-              <NavDropdown.Item href="/alimentos">Alimentos</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/alimentos">
+                Alimentos
+              </NavDropdown.Item>
               <NavDropdown.Divider />
 
-              <NavDropdown.Item href="/vinhos">
+              <NavDropdown.Item as={Link} to="/vinhos">
                 Vinhos e Espumantes
               </NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link href="/pedidos">
+            <Nav.Link as={Link} to="/pedidos">
               <strong>Faça seu pedido</strong>
             </Nav.Link>
-            <Nav.Link href="/contato">
+            <Nav.Link as={Link} to="/contato">
               <strong>Contato</strong>
             </Nav.Link>
-            <Nav.Link href="/sobreEmpresa">
+            <Nav.Link as={Link} to="/sobreEmpresa">
               <strong>Sobre a Empresa</strong>
             </Nav.Link>
-            <Nav.Link href="/parceiros">
+            <Nav.Link as={Link} to="/parceiros">
               <strong>Parceiros</strong>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
+
       <Routes />
     </>
   );
