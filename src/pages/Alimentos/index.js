@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+//import { Button } from "react-bootstrap";
 
 import imagemRigomel from "../../images/Sem título-1-13.jpg";
 import imagemNeumann from "../../images/Sem título-1-14.jpg";

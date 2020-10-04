@@ -1,9 +1,7 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+//import { Button } from "react-bootstrap";
 
 import imagemHugoPietro from "../../images/Sem título-1-12.jpg";
-
-//import { Container } from "./styles";
 
 const Importados = () => {
   return (

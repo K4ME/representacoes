@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+//import { Button } from "react-bootstrap";
 
 import imagemVentoSerrano from "../../images/Sem título-1-18.jpg";
 import imagemSantaVitta from "../../images/Sem título-1-16.jpg";
