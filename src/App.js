@@ -5,7 +5,7 @@ import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Routes from "./routes/index";
+import Routes from "./routes";
 
 import logoImage from "./images/logo.png";
 import "./App.css";
@@ -63,9 +63,10 @@ function App() {
             <Nav.Link as={Link} to="/sobreEmpresa">
               <strong>Sobre a Empresa</strong>
             </Nav.Link>
-            <Nav.Link as={Link} to="/parceiros">
+
+            <Link to="/parceiros" className="nav-link">
               <strong>Parceiros</strong>
-            </Nav.Link>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
