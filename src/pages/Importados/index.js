@@ -12,17 +12,17 @@ const Importados = () => {
       <img
         src={imagemMilka}
         alt="Milka"
-        style={{ width: "100%", height: "564px" }}
+        style={{ width: "100%", height: "100%" }}
       />
       <img
         src={imagemCoca}
         alt="Coca"
-        style={{ width: "100%", height: "622px" }}
+        style={{ width: "100%", height: "100%" }}
       />
       <img
         src={imagemCostazurra}
         alt="Costazurra"
-        style={{ width: "100%", height: "622px" }}
+        style={{ width: "100%", height: "100%" }}
       />
     </>
   );

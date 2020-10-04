@@ -11,17 +11,17 @@ const Importados = () => {
       <img
         src={imagemQualicoco}
         alt="Qualicoco"
-        style={{ width: "100%", height: "564px" }}
+        style={{ width: "100%", height: "100%" }}
       />
       <img
         src={imagemBrasilFrutt}
         alt="BrasilFrutt"
-        style={{ width: "100%", height: "622px" }}
+        style={{ width: "100%", height: "100%" }}
       />
       <img
         src={imagemMbee}
         alt="Mbee"
-        style={{ width: "100%", height: "622px" }}
+        style={{ width: "100%", height: "100%" }}
       />
     </>
   );

@@ -8,7 +8,7 @@ function SobreEmpresa() {
       src={imageSobreEmpresa}
       alt="sobre a empresa"
       width="100%"
-      height="564px"
+      height="100%"
     />
   );
 }

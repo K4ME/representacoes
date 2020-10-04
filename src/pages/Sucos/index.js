@@ -9,7 +9,7 @@ const Importados = () => {
       <img
         src={imagemHugoPietro}
         alt="HugoPietro"
-        style={{ width: "100%", height: "564px" }}
+        style={{ width: "100%", height: "100%" }}
       />
     </>
   );
