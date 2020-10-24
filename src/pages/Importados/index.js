@@ -6,14 +6,12 @@ import imagemCoca from "../../images/Sem título-1-09.jpg";
 //import imagemRodim from "?";
 import imagemCostazurra from "../../images/Sem título-1-19.jpg";
 
+import Milka from "../../components/Milka";
+
 const Importados = () => {
   return (
     <>
-      <img
-        src={imagemMilka}
-        alt="Milka"
-        style={{ width: "100%", height: "100%" }}
-      />
+      <Milka />
       <img
         src={imagemCoca}
         alt="Coca"

@@ -2,9 +2,6 @@
   display: flex;
   align-items: center;
 }
-.navbar-brand > img {
-  padding: 7px 14px;
-}
 
 .nav-link strong {
   font-size: 18px;
