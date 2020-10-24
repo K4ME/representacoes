@@ -1,9 +1,6 @@
 import React from "react";
-//import { Button } from "react-bootstrap";
 
-import imagemMilka from "../../images/Sem título-1-08.jpg";
 import imagemCoca from "../../images/Sem título-1-09.jpg";
-//import imagemRodim from "?";
 import imagemCostazurra from "../../images/Sem título-1-19.jpg";
 
 import Milka from "../../components/Milka";
