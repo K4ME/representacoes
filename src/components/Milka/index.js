@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 
-import imagemMilka from "../../images/Sem título-1-08.jpg";
+import imageMilka from '../../images/Sem título-1-08.jpg';
 
 import "./index.css";
 
@@ -9,7 +9,7 @@ function Milka() {
   return (
     <>
       <img
-        src={imagemMilka}
+        src={imageMilka}
         alt="Milka"
         style={{ width: "100%", height: "100%" }}
       />
