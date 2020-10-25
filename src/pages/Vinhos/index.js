@@ -1,28 +1,15 @@
 import React from "react";
-//import { Button } from "react-bootstrap";
 
-import imagemVentoSerrano from "../../images/Sem título-1-18.jpg";
-import imagemSantaVitta from "../../images/Sem título-1-16.jpg";
-import imagemCuveEllit from "../../images/Sem título-1-17.jpg";
+import VentoSerrano from "../../components/Vinhos/VentoSerrano";
+import SantaVitta from "../../components/Vinhos/SantaVitta";
+import CuveEllit from "../../components/Vinhos/CuveEllit";
 
 const Importados = () => {
   return (
     <>
-      <img
-        src={imagemVentoSerrano}
-        alt="VentoSerrano"
-        style={{ width: "100%", height: "100%" }}
-      />
-      <img
-        src={imagemSantaVitta}
-        alt="SantaVitta"
-        style={{ width: "100%", height: "100%" }}
-      />
-      <img
-        src={imagemCuveEllit}
-        alt="CuveEllit"
-        style={{ width: "100%", height: "100%" }}
-      />
+      <VentoSerrano/>
+      <SantaVitta/>
+      <CuveEllit/>
     </>
   );
 };

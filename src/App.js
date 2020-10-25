@@ -18,7 +18,7 @@ function App() {
           <img
             src={logoImage}
             alt="Flávio Costa Representações"
-            style={{ width: 280, height: 40, marginTop: -7 }}
+            style={{ width: 220, height: 40, marginTop: -7 }}
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
